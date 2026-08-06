@@ -1,0 +1,117 @@
+# Fast Translator
+
+<div align="center">
+
+**⚡ Ultra-fast offline translation & AI Assistant at your fingertips**
+
+[![Latest Release](https://img.shields.io/github/v/release/reimen-cpu/Fast_translator?style=for-the-badge&label=Download&color=blue)](https://github.com/reimen-cpu/Fast_translator/releases/latest)
+
+[**📥 Download Latest .DEB**](https://github.com/reimen-cpu/Fast_translator/releases/latest)
+
+</div>
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+<table>
+<tr>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/reimen-cpu/Fast_translator/main/img/installed%20languages.png" alt="Installed Languages" style="max-width:100%;">
+<p align="center"><em>Installed Packages</em></p>
+</td>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/reimen-cpu/Fast_translator/main/img/aviable%20languages.png" alt="Available Packages" style="max-width:100%;">
+<p align="center"><em>Available Packages</em></p>
+</td>
+<td width="33%">
+<img src="https://raw.githubusercontent.com/reimen-cpu/Fast_translator/main/img/ai%20providers.png" alt="AI Settings" style="max-width:100%;">
+<p align="center"><em>AI Settings</em></p>
+</td>
+</tr>
+</table>
+</div>
+
+---
+
+## 🎥 AI Demonstration
+
+<div align="center">
+  <img src="https://raw.githubusercontent.com/reimen-cpu/Fast_translator/main/img/AI_Demonstration.gif" width="33%" alt="AI Demonstration">
+</div>
+
+---
+
+## ✨ Features
+
+- 🤖 **AI Powered** - Get instant context-aware explanations via local **Ollama** LLMs at your fingertips!
+- 🚀 **Blazing Fast** - Native C++ implementation with CTranslate2.
+- 🔒 **100% Offline** - No internet required for translation.
+- 🌍 **60+ Languages** - Support for most major world languages.
+- ⌨️ **Global Shortcut** - Select text and press your custom hotkey to translate instantly.
+- 🔗 **Chain Translation** - Translate between any languages via intermediate steps.
+- 📦 **Smart Manager** - Easy GUI to manage language packs and models.
+
+---
+
+## 📥 Installation (Recommended)
+
+The easiest way to install is using the `.deb` package for Debian/Ubuntu based systems.
+
+1. **Download** the latest `.deb` file from the [**Releases Page**](https://github.com/reimen-cpu/Fast_translator/releases/latest).
+2. **Install** via terminal:
+   ```bash
+   sudo apt install ./fast-translator_*.deb
+   ```
+   *(Or simply double-click the file to install with your software center)*
+
+---
+
+## 🚀 Usage Guide
+
+Once installed, the application is designed to be invisible and ready at your fingertips.
+
+### 1️⃣ Set your Shortcut (First Run)
+Open the manager to configure your languages and shortcut:
+```bash
+fast-translator-manager
+```
+1. Go to the **Settings** or **Shortcut** tab.
+2. Click **"Set Shortcut"**.
+3. Use your system settings to bind that command to a key (e.g., `Ctrl+Alt+T`).
+
+### 2️⃣ Translate & Ask AI
+1. **Select any text** on your screen (browser, document, generic text).
+2. **Press your configured Shortcut**.
+3. The selected text will be **automatically replaced** by the result:
+   - The **Translation** of the text.
+   - Or the **AI Generated Response** (if Ollama is active).
+
+### 3️⃣ AI Configuration (Ollama)
+To enable the AI features:
+1. Ensure [Ollama](https://ollama.com/) is installed and running (`ollama serve`).
+2. The translator will automatically detect it and use it to enhance your translations.
+
+---
+
+## 🛠️ Building from Source (Advanced)
+
+If you are a developer or using a non-Debian distribution, you can build from source.
+
+### Build Instructions
+```bash
+sudo git clone https://github.com/reimen-cpu/Fast_translator
+cd Fast_translator
+./build_deb.sh
+```
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+<div align="center">
+Made with ❤️ for the open-source community
+</div>

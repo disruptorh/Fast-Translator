@@ -1,0 +1,45 @@
+# Archivos de compilación
+/build/
+/build-deb/
+/deb-build/
+/dist/
+/bin/
+/obj/
+/out/
+/Debug/
+/Release/
+/packages/
+*.deb
+# Archivos generados por CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.dir/
+*.vcxproj*
+*.sln
+*.user
+*.ninja
+*.cache
+# Archivos temporales del sistema
+*.swp
+*~
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Archivos generados por IDEs
+.idea/
+.vscode/
+*.cbp
+*.depend
+*.layout
+*.mode
+*.pro.user
+*.autosave
+*.moc
+*.qrc
+*.ui
+ 
